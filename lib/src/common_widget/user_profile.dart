@@ -23,7 +23,7 @@ class UserProfile extends StatelessWidget {
           bottomRight: Radius.circular(20),
         ),
       ),
-      padding: const EdgeInsets.all(17),
+      padding: const EdgeInsets.only(bottom: 12),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -33,14 +33,14 @@ class UserProfile extends StatelessWidget {
               //   shape: BoxShape.circle,
               //   color: Colors.grey[400],
               // ),
-              padding: const EdgeInsets.all(10),
+              padding: const EdgeInsets.only(top: 20),
               child: CircleAvatar(
-                radius: 30,
+                radius: 35,
                 backgroundImage: AssetImage(photoUrl),
               )),
           //name and position
           Padding(
-            padding: const EdgeInsets.only(right: 30),
+            padding: const EdgeInsets.only(right: 55),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [

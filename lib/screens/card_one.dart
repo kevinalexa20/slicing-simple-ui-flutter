@@ -18,7 +18,7 @@ class CardOne extends StatelessWidget {
             searchContent(),
             //CARD BODY CONTENT
             const Padding(
-              padding: EdgeInsets.all(8.0),
+              padding: EdgeInsets.all(25.0),
               child: Column(
                 children: [
                   UserProfile(
